@@ -5,7 +5,7 @@ import java.util.Date;
 public class Utility {
 	
 	
-	public Date getSysDate()
+	public static Date getSysDate()
 	{
 		return new Date();
 	}
