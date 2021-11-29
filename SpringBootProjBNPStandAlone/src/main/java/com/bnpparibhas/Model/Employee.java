@@ -14,6 +14,11 @@ public class Employee {
 	
 	private Integer empnum;
 	
+	
+	public void m1()
+	{
+		System.out.println("Hello Utility");
+	}
 
 
 	public String getEmpname() {
