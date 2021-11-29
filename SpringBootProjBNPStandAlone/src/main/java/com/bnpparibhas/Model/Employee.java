@@ -1,6 +1,5 @@
 package com.bnpparibhas.Model;
 
-import com.bnpparibhas.Utility.Utility;
 
 import lombok.Data;
 
@@ -15,9 +14,7 @@ public class Employee {
 	
 	private Integer empnum;
 	
-	public static void main(String[] args) {
-		System.out.println(Utility.getSysDate());
-	}
+
 
 	public String getEmpname() {
 		return empname;
